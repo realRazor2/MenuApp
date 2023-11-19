@@ -1,0 +1,626 @@
+﻿
+@{
+    Layout = null;
+}
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lezzetin Mimarı</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="~/img/logomain.png" rel="icon">
+  <link href="~/img/logomain.png" rel="apple-touch-icon">
+    
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+    <link href="~/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+
+  <!-- Template Main CSS File -->
+    <link href="~/css/site.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Restaurantly - v3.1.0
+  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+            <!--<h1 class="logo me-auto me-lg-0"><a href="index.html">Mimar Sinan</a>-->
+      <!-- Uncomment below if you prefer to use an img logo -->
+      <a href="#" class="logo me-auto me-lg-0"><img src="~/img/lezzetinmimarilogo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Ana Sayfa</a></li>
+          <li><a class="nav-link scrollto" href="#about">Hakkımızda</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Lezzetler</a></li>
+          <li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Lezzetin Mimarı'na <span>Hoşgeldiniz</span></h1>
+          <h2>10 yılı aşkın süredir harika yemekler sunuyoruz!</h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Menümüz</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Garson Çağır</a>
+            
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="~/img/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Lezzetin Mimarı'nı Keşfedin!</h3>
+            <p class="fst-italic">
+              Yılların verdiği tecrübeyle sizlere en iyi hizmeti vermekten gurur duyuyor ve her geçen 
+              gün gelişmeye devam ediyoruz!
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Deneyimli aşçıların elinden en lezzetli yemekler</li>
+              <li><i class="bi bi-check-circle"></i> Hijyen ve temizliğe son derece dikkat eden personeller</li>
+              <li><i class="bi bi-check-circle"></i> Son derece hızlı siparişler</li>
+            </ul>
+            <p>
+              Lezzetin Mimarı'nı ziyaret ettiğiniz için teşekkür ederiz!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Lezzetli Menümüze Göz Atın</p>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">Tümü</li>
+                <li data-filter=".filter-tavukurunleri">Tavuk Ürünleri</li>
+                <li data-filter=".filter-eturunleri">Et Ürünleri</li>
+                <li data-filter=".filter-cocukmenu">Çocuk Menü</li>
+                <li data-filter=".filter-yenilezzet">Yeni Lezzet</li>
+                <li data-filter=".filter-tatlılar">Tatlılar</li>
+                <li data-filter=".filter-corbalar">Çorbalar</li>
+                <li data-filter=".filter-icecekler">İçecekler</li>
+                <li data-filter=".filter-arasicaklar">Ara Sıcaklar</li>
+                
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+
+                
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/iskender.webp" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>İskender</a><span>₺120</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/donerporsiyon.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Döner Porsiyon</a><span>₺100</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/donerdurum.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Döner Dürüm</a><span>₺75</span>
+                        </div>
+                    </div>  
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/kuzu-sis.jpeg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Kuzu Şiş</a><span>₺130</span>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/kuzu-pirzola.jpeg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Kuzu Pirzola</a><span>₺175</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-eturunleri">
+                        <img src="~/img/menu/hamburger.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Hamburger</a><span>₺120</span>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                   
+                   
+                    <div class="col-lg-6 menu-item filter-tavukurunleri">
+                        <img src="~/img/menu/zurnadurum.jpeg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Zirve Dürüm</a><span>₺90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tavukurunleri">
+                        <img src="~/img/menu/tavukwrap.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Tavuk Wrap</a><span>₺90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tavukurunleri">
+                        <img src="~/img/menu/tavukbonfile.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Tavuk Bonfile</a><span>₺90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tavukurunleri">
+                        <img src="~/img/menu/tavuksis.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Tavuk Şiş</a><span>₺90</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-cocukmenu">
+                        <img src="~/img/menu/hamburger.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Hamburger</a><span>₺120</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-cocukmenu">
+                        <img src="~/img/menu/tavukburger.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Tavuk Burger</a><span>₺120</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-cocukmenu">
+                        <img src="~/img/menu/patso.jpeg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Patso</a><span>₺40</span>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-yenilezzet">
+                        <img src="~/img/menu/kokorec.png" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Kokoreç</a><span>₺120</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-corbalar">
+                        <img src="~/img/menu/tavuksuyu.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Tavuk Suyu</a><span>₺35</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-corbalar">
+                        <img src="~/img/menu/ezogelin.jpeg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Ezogelin</a><span>₺25</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/sutlac.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Sütlaç</a><span>₺40</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/kabaktatlısı.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Kabak Tatlısı</a><span>₺40</span>
+                        </div>
+                    </div>                    
+                   
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/baklava.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Baklava Porsiyon</a><span>₺50</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/waffle.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Waffle</a><span>₺75</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/yaspastadilim.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Yaş Pasta Dilim</a><span>₺40</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-tatlılar">
+                        <img src="~/img/menu/trilece.webp" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Trileçe</a><span>₺40</span>
+                        </div>
+                    </div>
+                    
+
+
+
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/salep.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Salep</a><span>₺30</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/turkkahvesi.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Türk Kahvesi</a><span>₺20</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/osmanliserbeti.webp" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Osmanlı Şerbeti</a><span>₺15</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/limonata.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Limonata</a><span>₺15</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/soda.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Soda</a><span>₺15</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/ayran.webp" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Ayran</a><span>₺10</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/su.png" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Su</a><span>₺5</span>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-6 menu-item filter-icecekler">
+                        <img src="~/img/menu/cay.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Çay</a><span>İkram</span>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-lg-6 menu-item filter-arasicaklar">
+                        <img src="~/img/menu/iclikofte.jpg" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>İçli Köfte</a><span>₺25</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-arasicaklar">
+                        <img src="~/img/menu/sarmaporsiyon.webp" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Sarma</a><span>₺30</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item filter-arasicaklar">
+                        <img src="~/img/menu/cigkoftedurum.png" class="menu-img" alt="">
+                        <div class="menu-content">
+                            <a>Çiğ Köfte Dürüm</a><span>₺30</span>
+                        </div>
+                    </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Lezzetler</h2>
+          <p>Lezzetlerimize Göz Atın</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-1">Zirve Dürüm</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-2">İskender</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Tavuk Wrap</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Kokoreç</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">İçli Köfte</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Hamburger</a>
+                </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+
+
+                <div class="tab-pane" id="tab-1">
+                    <div class="row"> 
+                        <div class="col-lg-4 text-center order-1 order-lg-2">
+                            <img src="~/img/menu/zurnadurum.jpeg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="tab-2">
+                    <div class="row">
+                        <div class="col-lg-4 text-center order-1 order-lg-2">
+                            <img src="~/img/menu/iskender.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="~/img/menu/tavukwrap.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="~/img/menu/kokorec.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tab-pane" id="tab-5">
+                <div class="row"> 
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="~/img/menu/iclikofte.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tab-pane" id="tab-6">
+                <div class="row">
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="~/img/menu/hamburger.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+   
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Rezervasyon</h2>
+                <p>Garson Çağır (Test Aşamasında)</p>
+                <span>Bu özellik yakında yüklenecektir!</span>
+            </div>
+
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Masa Numaranız" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="time" id="time" placeholder="Adınız" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div> 
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                </div>
+                <!-- <div class="text-center"><button type="submit" onclick="">Garson Çağır</button></div> -->
+            </form>
+
+        </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>İletişim</h2>
+          <p>Bize Ulaşın</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+                <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8953840730396!2d29.94435177657757!3d40.76432563440977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4f8bec1d6301%3A0x1a3796768d0f6f3c!2zTWltYXIgU2luYW4gWcO8a3NlayDDlsSfcmVuaW0gRXJrZWsgw5bEn3JlbmNpIFl1cmR1IGl6bWl0!5e0!3m2!1sen!2str!4v1697485051805!5m2!1sen!2str" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Konum</h4>
+                <p>Şehit Rafet Karacan Blv. No:50/1 İzmit/Kocaeli</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>Çalışma Saatleri</h4>
+                <p>
+                  Perşembe-Pazar:<br>
+                  10:00 AM - 23.00 PM
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email</h4>
+                <p>mimarsinan@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telefon</h4>
+                <p>+90 538 896 0143</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+    <script src="~/js/site.js"></script>
+
+</body>
+
+</html>
